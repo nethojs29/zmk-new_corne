@@ -14,7 +14,7 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', s: _}
-  - {t: A, h: NUMBER}
+  - {t: A, h: CONFIG}
   - {t: S, h: LGUI}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-option$$'}
@@ -23,7 +23,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - H
-  - {t: J, h: symbols}
+  - {t: J, h: SYMBOLS}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: LGUI}
   - {t: ;, s: ':'}
@@ -44,10 +44,10 @@ layers:
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-esc$$', h: numbers}
+  - {t: '$$mdi:keyboard-esc$$', h: NUMBERS}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: dvorak, h: toggle}
+  - {t: DVORAK, h: toggle}
   NAV:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -97,7 +97,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  dvorak:
+  DVORAK:
   - {t: '$$mdi:transfer$$', type: trans}
   - .
   - {t: ',', s: <}
@@ -146,7 +146,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  NUMBER:
+  CONFIG:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -195,7 +195,7 @@ layers:
   - INS
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  numbers:
+  NUMBERS:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -244,7 +244,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  symbols:
+  SYMBOLS:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+{
