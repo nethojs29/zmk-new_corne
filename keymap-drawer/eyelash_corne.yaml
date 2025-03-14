@@ -43,7 +43,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
-  - '&gp BSPC'
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-esc$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
