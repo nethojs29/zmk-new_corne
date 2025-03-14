@@ -73,10 +73,12 @@
 &trans  &kp SEMI  &kp Q      &kp J    &kp K   &kp X   &trans            &trans          &kp B   &kp M   &kp W   &kp V  &kp Z  &trans
                              &trans   &trans  &trans                                    &trans  &trans  &trans
             >;
+
+            label = "DVORAK";
         };
 
         config {
-            display-name = "NUMBER";
+            display-name = "CONFIG";
             bindings = <
 &trans  &kp N1           &kp N2          &kp N3        &kp N4         &kp LC(UP)                                     &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
 &trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
@@ -94,6 +96,8 @@
 &kp F1  &kp F2        &kp F3      &kp F4         &kp F5        &kp F6         &trans            &trans          &kp F7         &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
                                   &trans         &trans        &trans                                           &trans         &trans        &trans
             >;
+
+            label = "NUMBERS";
         };
 
         symbols {
@@ -103,6 +107,8 @@
 &trans  &trans  &kp LBKT      &kp RBKT      &trans  &trans  &trans            &trans          &trans  &trans  &trans         &trans  &trans  &trans
                               &trans        &trans  &trans                                    &trans  &trans  &trans
             >;
+
+            label = "SYMBOLS";
         };
     };
 };
