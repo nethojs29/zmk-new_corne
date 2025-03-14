@@ -16,7 +16,7 @@ layers:
   - {t: '-', h: CONFIG, s: _}
   - {t: A, h: CONFIG}
   - {t: S, h: LGUI}
-  - '&ht_tp LSHIFT D'
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-option$$'}
   - {t: G, h: 'Alt+Ctl+Gui+$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
