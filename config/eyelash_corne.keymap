@@ -45,10 +45,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB    &kp Q    &kp W       &kp E         &kp R       &kp T                                                         &mmv MOVE_UP                     &kp Y      &kp U      &kp I         &kp O       &kp P     &kp BSPC
-&kp MINUS  &lt 3 A  &mt LGUI S  &mt LSHIFT D  &mt LALT F  &mt LA(LC(LG(LSHIFT))) G                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H      &lt 5 J    &mt LSHIFT K  &mt LGUI L  &kp SEMI  &kp SQT
-&kp TILDE  &kp Z    &kp X       &kp C         &kp V       &kp B                     &kp K_PLAY_PAUSE                    &mmv MOVE_DOWN                   &kp N      &kp M      &kp COMMA     &kp DOT     &kp FSLH  &kp EQUAL
-                                &kp LCTRL     &kp BSPC    &lt 4 ESC                                                                                      &kp ENTER  &kp SPACE  &tog 2
+&kp TAB      &kp Q    &kp W       &kp E         &kp R       &kp T                                                         &mmv MOVE_UP                     &kp Y      &kp U      &kp I         &kp O       &kp P     &kp BACKSLASH
+&lt 3 MINUS  &lt 3 A  &mt LGUI S  &mt LSHIFT D  &mt LALT F  &mt LA(LC(LG(LSHIFT))) G                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H      &lt 5 J    &mt LSHIFT K  &mt LGUI L  &kp SEMI  &kp SQT
+&kp TILDE    &kp Z    &kp X       &kp C         &kp V       &kp B                     &kp K_PLAY_PAUSE                    &mmv MOVE_DOWN                   &kp N      &kp M      &kp COMMA     &kp DOT     &kp FSLH  &kp EQUAL
+                                  &kp LCTRL     &kp BSPC    &lt 4 ESC                                                                                      &kp ENTER  &kp SPACE  &tog 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -75,6 +75,7 @@
             >;
 
             label = "DVORAK";
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOLUME_UP>;
         };
 
         config {
