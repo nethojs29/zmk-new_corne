@@ -295,29 +295,31 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [1, 2]
-  k: $$mdi:keyboard-tab$$
-- p: [15, 14]
-  k: {t: '-', s: _}
-- p: [29, 30]
-  k: {t: '`', s: '~'}
 - p: [2, 3]
-  k: '{'
+  k: $$mdi:keyboard-tab$$
 - p: [15, 16]
-  k: (
+  k: {t: '-', h: 'Gui+$$mdi:apple-keyboard-shift$$', s: _}
 - p: [30, 31]
-  k: {t: '[', s: '{'}
-- p: [4, 3]
-  k: '}'
-- p: [17, 16]
-  k: )
+  k: {t: '`', s: '~'}
+- p: [3, 4]
+  k: '{'
+- p: [16, 17]
+  k: {t: (, h: 'Sft+$$mdi:apple-keyboard-option$$'}
 - p: [31, 32]
-  k: {t: ']', s: '}'}
-- p: [10, 11]
-  k: {t: \, s: '|'}
-- p: [25, 26]
-  k: {t: '''', s: '"'}
-- p: [39, 40]
-  k: {t: '=', s: +}
+  k: {t: '[', s: '{'}
+- p: [4, 5]
+  k: '}'
 - p: [17, 18]
+  k: )
+- p: [32, 33]
+  k: {t: ']', s: '}'}
+- p: [10, 9]
+  k: {t: \, s: '|'}
+- p: [25, 24]
+  k: {t: '''', s: '"'}
+- p: [39, 38]
+  k: {t: '=', s: +}
+- p: [15, 14]
   k: $$mdi:apple-keyboard-caps$$
+- p: [23, 24]
+  k: ':'
