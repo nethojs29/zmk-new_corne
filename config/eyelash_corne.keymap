@@ -52,67 +52,72 @@
 
         ctab {
             bindings = <&kp TAB>;
-            key-positions = <1 2>;
+            key-positions = <2 3>;
         };
 
         cmin {
-            bindings = <&kp MINUS>;
-            key-positions = <15 14>;
+            bindings = <&hm LG(LEFT_SHIFT) MINUS>;
+            key-positions = <15 16>;
         };
 
         cbtick {
             bindings = <&kp GRAVE>;
-            key-positions = <29 30>;
+            key-positions = <30 31>;
         };
 
         csq {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <2 3>;
+            key-positions = <3 4>;
         };
 
         cparen {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <15 16>;
+            bindings = <&hm LS(LEFT_ALT) LEFT_PARENTHESIS>;
+            key-positions = <16 17>;
         };
 
         csqparen {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <30 31>;
+            key-positions = <31 32>;
         };
 
         curly {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <4 3>;
+            key-positions = <4 5>;
         };
 
         paren {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <17 16>;
+            key-positions = <17 18>;
         };
 
         brack {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <31 32>;
+            key-positions = <32 33>;
         };
 
         slash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <10 11>;
+            key-positions = <10 9>;
         };
 
         quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <25 26>;
+            key-positions = <25 24>;
         };
 
         eq {
             bindings = <&kp EQUAL>;
-            key-positions = <39 40>;
+            key-positions = <39 38>;
         };
 
         bloq {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <17 18>;
+            key-positions = <15 14>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <23 24>;
         };
     };
 
