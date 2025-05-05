@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
   - W
   - E
@@ -13,8 +13,8 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
-  - {t: '-', h: CONFIG, s: _}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: A, h: NAV}
   - {t: S, h: LGUI}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -28,21 +28,21 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: LGUI}
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - '~'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
   - X
   - C
   - V
   - B
-  - PLAY PAUSE
+  - MUTE
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '=', s: +}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-esc$$', h: NUMBERS}
@@ -161,7 +161,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -225,7 +225,7 @@ layers:
   - Sft+(
   - Sft+)
   - {t: '$$mdi:transfer$$', type: trans}
-  - F1
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F2
   - F3
   - F4
@@ -238,7 +238,7 @@ layers:
   - F9
   - F10
   - F11
-  - F12
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -294,3 +294,30 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [1, 2]
+  k: $$mdi:keyboard-tab$$
+- p: [15, 14]
+  k: {t: '-', s: _}
+- p: [29, 30]
+  k: {t: '`', s: '~'}
+- p: [2, 3]
+  k: '{'
+- p: [15, 16]
+  k: (
+- p: [30, 31]
+  k: {t: '[', s: '{'}
+- p: [4, 3]
+  k: '}'
+- p: [17, 16]
+  k: )
+- p: [31, 32]
+  k: {t: ']', s: '}'}
+- p: [10, 11]
+  k: {t: \, s: '|'}
+- p: [25, 26]
+  k: {t: '''', s: '"'}
+- p: [39, 40]
+  k: {t: '=', s: +}
+- p: [17, 18]
+  k: $$mdi:apple-keyboard-caps$$
